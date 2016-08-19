@@ -8,7 +8,7 @@ version <- '0.3'
 
 MyGene <- setClass("MyGene",
     slots=list(base.url="character", delay="numeric", step="numeric", version="character", verbose="logical", debug="logical"),
-    prototype=list(base.url="http://mygene.info/v2", delay=1, step=1000, version=version, verbose=TRUE, debug=FALSE))
+    prototype=list(base.url="http://mygene.info/v3", delay=1, step=1000, version=version, verbose=TRUE, debug=FALSE))
 
 validMyGeneObject <- function(object) {
     errors <- character(0)
