@@ -8,8 +8,9 @@
 * Install from Bioconductor by typing in your R console:
 
 ```
-source("http://bioconductor.org/biocLite.R")
-biocLite("mygene")
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("mygene")
 ```
 
 * Or download tarball from [Bioconductor](http://bioconductor.org/packages/release/bioc/html/mygene.html)
