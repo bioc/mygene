@@ -1,7 +1,7 @@
 Package: mygene
 Type: Package
 Title: Access MyGene.Info_ services
-Version: 1.42.0
+Version: 1.43.0
 Date: 2024-03-19
 Author: Adam Mark, Ryan Thompson, Cyrus Afrasiabi, Chunlei Wu
 Maintainer: Adam Mark, Cyrus Afrasiabi, Chunlei Wu <cwu@scripps.edu>
